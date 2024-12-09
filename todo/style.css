@@ -1,0 +1,27 @@
+.container{
+    margin:10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button{
+    font-weight: bold;
+    border: solid black;
+    background: rgb(7, 113, 220);
+    color: white;
+    height: 40px;
+    width: 100px;
+    box-shadow: 100px;
+    will-change: auto;
+    cursor: pointer;
+    border-radius: 5%;
+    
+}
+input{
+    height: 32px;
+    width: 300px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+}
