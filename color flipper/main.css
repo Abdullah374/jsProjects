@@ -1,0 +1,33 @@
+.container{
+    margin: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    height: 40px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 20%;
+}
+
+.Red{
+    background-color: red;
+    color: black;
+}
+
+.Blue{
+    background-color: blue;
+    color: black;
+}
+
+.Green{
+    background-color: green;
+    color: black;
+}
+
