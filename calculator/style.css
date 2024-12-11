@@ -9,6 +9,27 @@ button{
     background: grey;
     font-size: large;
     font-style: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+button:hover{
+    box-shadow: 0px 0px 10px 0px white;
+    transform: scale(1.025);
+
+}
+button:active{
+    transform: scale(0.95);
+    background-color: orange;
+}
+
+button::after{
+    position:absolute;
+    animation: ripple 0.6s ease-out;
+}
+
+button:active::after{
+    animation: ripple 0.6s ease-out;
 }
 
 .calculator{
@@ -17,10 +38,25 @@ button{
     background: rgb(45, 44, 44);
     font-size: 1.5vw;
     border-radius: 5%;
+    transition: background-color 0.3s ease, transform 0.3s ease
+}
+
+.calculator:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transform: scale(1.025);
 }
 
 body{
     margin: 50px;
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background: linear-gradient(90deg, #aa7ef2, #6d2be7, #370163);
+  background-size: 300% 300%;
+  animation: gradientAnimation 10s ease infinite;
 }
 
 #display{
@@ -33,3 +69,15 @@ body{
     background: black;
     color: white;
 }
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
