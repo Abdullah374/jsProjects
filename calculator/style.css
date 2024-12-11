@@ -1,0 +1,35 @@
+span{
+    display: block;
+}
+
+button{
+    height: 50px;
+    width: 100px;;
+    margin: 2px;
+    background: grey;
+    font-size: large;
+    font-style: bold;
+}
+
+.calculator{
+    padding: 20px;
+    width: fit-content;
+    background: rgb(45, 44, 44);
+    font-size: 1.5vw;
+    border-radius: 5%;
+}
+
+body{
+    margin: 50px;
+}
+
+#display{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 420px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: black;
+    color: white;
+}
